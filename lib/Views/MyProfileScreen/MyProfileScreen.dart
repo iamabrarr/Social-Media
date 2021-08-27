@@ -13,8 +13,8 @@ class Profile extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
-        brightness: Brightness.dark,
         centerTitle: true,
         title: Text(
           'Your Profile',
